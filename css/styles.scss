@@ -10,6 +10,22 @@
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
+Base Styles
+Navbar
+Images
+Lists
+Grid
+Typography
+Links
+Structure
+Forms
+Tables
+Spacing
+Utilities
+Misc
+Clearing
+Utilities
+Footer
 
 */
 
@@ -33,16 +49,6 @@ body {
   background-color: $primary-white;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-
-
-/* Footer
-__________________________________________________ */
-
-footer.page-footer{
-	background-color: $primary-gray;
-	color: $primary-white;
-  margin-top: 0px;
-}
 
 
 /* Navbar
@@ -69,11 +75,12 @@ nav.navbar ul > li, ul> li a {
 	border: none;
 }
 
+
 /* Images
 __________________________________________________ */
 .network-map img {
-	margin: 0 auto;
-	display: block;
+  margin: 0 auto;
+  display: block;
 }
 section.hero {
   background-image: url("../images/gamer.jpg");
@@ -82,14 +89,14 @@ section.hero {
   height: 480px; 
 }
 footer img {
-	width: 65%;
-	height: 65%;
-	display: block;
-	margin: 0 auto;
+  width: 65%;
+  height: 65%;
+  display: block;
+  margin: 0 auto;
 }
 #nav-logo img {
-	max-height: 55px;
-	max-width: 100%;
+  max-height: 55px;
+  max-width: 100%;
 }
 section.howitworks div img {
   display: block;
@@ -99,17 +106,18 @@ section.howitworks div img {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .network-map li {
-	list-style: circle inside;
-	margin-bottom: 0.5rem;
+  list-style: circle inside;
+  margin-bottom: 0.5rem;
 }
 footer.page-footer li a {
-	color: #ffffff;
+  color: #ffffff;
 }
 .engineering li, .network li, .e-sports li {
   list-style: circle inside;
   margin-bottom: 0.9rem;
   font-size: 1.6rem;
 }
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -132,7 +140,6 @@ footer.page-footer li a {
     width: 85%;
     padding: 0; }
 }
-
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
@@ -143,7 +150,6 @@ footer.page-footer li a {
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
-
 // Keeps footer sticky to bottom //
  body {
     display: flex;
@@ -193,6 +199,7 @@ h6 { font-size: 1.8rem; line-height: 1.6;  letter-spacing: 0; }
 .table>tbody>tr>td, {
   font-weight: 400;
 }
+
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -297,7 +304,6 @@ label > .label-body {
   display: inline-block;
   margin-left: .5rem;
   font-weight: normal; }
-
 
 
 /* Tables
@@ -409,4 +415,14 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+}
+
+
+/* Footer
+__________________________________________________ */
+
+footer.page-footer{
+  background-color: $primary-gray;
+  color: $primary-white;
+  margin-top: 0px;
 }
