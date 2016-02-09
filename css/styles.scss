@@ -98,9 +98,10 @@ footer img {
   max-height: 55px;
   max-width: 100%;
 }
-section.howitworks div img {
-  display: block;
-  margin: 0 auto;
+section.howitworks i.fa {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 /* Lists
@@ -212,18 +213,18 @@ a:hover {
 /* Structure
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-section.e-sports {
+section.how-it-works {
   background-color: $primary-teal;
   color: $primary-white;
 }
 section.network-map {
   background-color: $primary-white;
 }
-section.sign-up {
+section.engineering {
   background-color: $primary-gray;
   color: $primary-white;
 }
-section.engineering {
+section.sign-up {
   background-image: url("../images/dark_geometric_@2X.png");
   background-position: center ;
   background-size: inherit;
@@ -242,7 +243,6 @@ section.founders {
   margin-top: 50px;
   color: $primary-teal;
 }
-
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -347,10 +347,6 @@ section {
 }
 nav.navbar {
 	margin-bottom:0px;
-}
-section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 p {
   margin-top: 0; }

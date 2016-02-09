@@ -9,6 +9,22 @@
 */
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
+Base Styles
+Navbar
+Images
+Lists
+Grid
+Typography
+Links
+Structure
+Forms
+Tables
+Spacing
+Utilities
+Misc
+Clearing
+Utilities
+Footer
 
 */
 /* Base Styles
@@ -27,13 +43,6 @@ body {
   background-color: #FBFBFB;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-
-/* Footer
-__________________________________________________ */
-footer.page-footer {
-  background-color: #414042;
-  color: #FBFBFB;
-  margin-top: 0px; }
 
 /* Navbar
 __________________________________________________ */
@@ -79,9 +88,10 @@ footer img {
   max-height: 55px;
   max-width: 100%; }
 
-section.howitworks div img {
-  display: block;
-  margin: 0 auto; }
+section.howitworks i.fa {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px; }
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -222,18 +232,18 @@ footer.page-footer li a {
 
   /* Structure
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  section.e-sports {
+  section.how-it-works {
     background-color: #00BFBF;
     color: #FBFBFB; }
 
   section.network-map {
     background-color: #FBFBFB; }
 
-  section.sign-up {
+  section.engineering {
     background-color: #414042;
     color: #FBFBFB; }
 
-  section.engineering {
+  section.sign-up {
     background-image: url("../images/dark_geometric_@2X.png");
     background-position: center;
     background-size: inherit;
@@ -367,10 +377,6 @@ footer.page-footer li a {
   nav.navbar {
     margin-bottom: 0px; }
 
-  section {
-    padding-top: 2rem;
-    padding-bottom: 2rem; }
-
   p {
     margin-top: 0; }
 
@@ -421,5 +427,11 @@ footer.page-footer li a {
   /* Larger than tablet */
   /* Larger than desktop */
   /* Larger than Desktop HD */ }
+/* Footer
+__________________________________________________ */
+footer.page-footer {
+  background-color: #414042;
+  color: #FBFBFB;
+  margin-top: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
